@@ -1,0 +1,64 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+  background: url(geert-pieters-3RnkZpDqsEI-unsplash.jpg) no-repeat center
+    center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+  background-color: rgba(240, 52, 52, 0.8);
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 1rem;
+  }
+}
+
+hr {
+  background-color: rgba(240, 52, 52, 1);
+  width: 60px;
+}
+
+.navbar {
+  background-color: rgba(46, 49, 49, 0.5);
+}
+
+.btn {
+  padding: 1rem 2rem;
+}
+
+.btn-primary {
+  border-radius: 300px;
+  -webkit-border-radius: 300px;
+  -moz-border-radius: 300px;
+  -ms-border-radius: 300px;
+  -o-border-radius: 300px;
+  background-color: rgba(240, 52, 52, 1);
+  border-color: rgba(240, 52, 52, 1);
+  transition: ease-in 0.2s;
+  -webkit-transition: ease-in 0.2s;
+  -moz-transition: ease-in 0.2s;
+  -ms-transition: ease-in 0.2s;
+  -o-transition: ease-in 0.2s;
+}
+
+.btn-primary:hover {
+  background-color: rgba(231, 76, 60, 1);
+  border-color: rgba(231, 76, 60, 1);
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+.buffer {
+  height: 15rem;
+}
